@@ -1,6 +1,6 @@
 # Portfolio
 
-> Projeto da primeira versão do meu portfolio
+> (WIP) Projeto da primeira versão do meu portfolio
 
 [Link para a demo](https://portfolio-lxarst.vercel.app/)
 
