@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 body {
-    background-color: rgb(24 24 27);
+  background-color: rgb(24 24 27);
+}
+.bg-zinc-850 {
+  background-color: #1e1e20;
 }

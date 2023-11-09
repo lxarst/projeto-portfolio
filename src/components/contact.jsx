@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <label className="uppercase text-sm py-2">Nome</label>
             <input
-              className="border-2 rounded-lg p-3 flex border-zinc-500"
+              className="bg-zinc-850 text-white border-2 rounded-lg p-3 flex border-zinc-500"
               type="text"
               name="name"
               required
@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <label className="uppercase text-sm py-2">Número</label>
             <input
-              className="border-2 rounded-lg p-3 flex border-zinc-500"
+              className="bg-zinc-850 text-white border-2 rounded-lg p-3 flex border-zinc-500"
               type="text"
               name="phone"
             />
@@ -33,7 +33,7 @@ const Contact = () => {
           <div className="flex flex-col py-2">
             <label className="uppercase text-sm py-2">Email</label>
             <input
-              className="border-2 rounded-lg p-3 flex border-zinc-500"
+              className="bg-zinc-850 text-white border-2 rounded-lg p-3 flex border-zinc-500"
               type="email"
               name="email"
               required
@@ -42,7 +42,7 @@ const Contact = () => {
           <div className="flex flex-col py-2">
             <label className="uppercase text-sm py-2">Assunto</label>
             <input
-              className="border-2 rounded-lg p-3 flex border-zinc-500"
+              className="bg-zinc-850 text-white border-2 rounded-lg p-3 flex border-zinc-500"
               type="text"
               name="subject"
               required
@@ -51,15 +51,15 @@ const Contact = () => {
           <div className="lg:col-span-2 flex flex-col py-2">
             <label className="uppercase text-sm py-2">Mensagem</label>
             <textarea
-              className="border-2 rounded-lg p-3 border-zinc-500"
+              className="bg-zinc-850 text-white border-2 rounded-lg p-3 border-zinc-500"
               name="message"
               rows="10"
               required
             ></textarea>
           </div>
         </div>
-        <button className="bg-zinc-600 text-white mt-4 w-full p-4 rounded-lg">
-          Botao
+        <button className="bg-neutral-700 text-white mt-4 w-full p-4 rounded-lg">
+          Enviar Mensagem
         </button>
       </form>
     </div>

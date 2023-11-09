@@ -5,7 +5,7 @@ import {
   AiOutlineMail,
   AiOutlineOneToOne,
 } from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
+import { FaRegFileAlt } from "react-icons/fa";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -35,7 +35,7 @@ const Sidenav = () => {
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110"
           >
             <AiOutlineOneToOne size={20} />
-            <span className="pl-4">Projects</span>
+            <span className="pl-4">Projetos</span>
           </a>
           <a
             onClick={handleNav}
@@ -47,11 +47,13 @@ const Sidenav = () => {
           </a>
           <a
             onClick={handleNav}
-            href="#contact"
+            href="https://drive.google.com/file/d/1U3jGRNgJ2MWGpDXf65SM8I1cqvOqW2_2/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110"
           >
-            <BsPerson size={20} />
-            <span className="pl-4">Resume</span>
+            <FaRegFileAlt size={20} />
+            <span className="pl-4">Currículo</span>
           </a>
         </div>
       ) : (
@@ -78,10 +80,12 @@ const Sidenav = () => {
             <AiOutlineMail size={20} />
           </a>
           <a
-            href="#main"
+            href="https://drive.google.com/file/d/1U3jGRNgJ2MWGpDXf65SM8I1cqvOqW2_2/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
             className="rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <BsPerson size={20} />
+            <FaRegFileAlt size={20} />
           </a>
         </div>
       </div>

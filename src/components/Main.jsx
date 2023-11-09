@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaGithub, FaRegFileAlt } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -26,10 +26,35 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-5 max-w-[150px] w-full text-gray-100">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaLinkedin className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
+          <div className="flex justify-between pt-8 max-w-[200px] w-full text-gray-100">
+            <a
+              href="https://twitter.com/lxarst"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaTwitter className="cursor-pointer" size={20}></FaTwitter>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/raulstsouza/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaLinkedin className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href="https://github.com/lxarst"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaGithub className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1U3jGRNgJ2MWGpDXf65SM8I1cqvOqW2_2/view?usp=sharing"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaRegFileAlt className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>
