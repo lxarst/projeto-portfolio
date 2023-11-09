@@ -4,8 +4,8 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="main">
-      <div className="w-full h-screen absolute top-0 left-0 bg-zinc-900">
-        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center">
+      <div className="w-full h-screen relative top-0 left-0 bg-zinc-900">
+        <div className="m-auto h-full w-full flex flex-col justify-center items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-100">
             Meu nome é Raul
           </h1>

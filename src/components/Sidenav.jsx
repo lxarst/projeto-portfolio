@@ -22,6 +22,7 @@ const Sidenav = () => {
       {nav ? (
         <div className="fixed w-full h-screen bg-zinc-900/95 flex flex-col justify-center items-center z-20 ease-in duration-200">
           <a
+            onClick={handleNav}
             href="#main"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110"
           >
@@ -29,25 +30,28 @@ const Sidenav = () => {
             <span className="pl-4">Home</span>
           </a>
           <a
-            href="#main"
+            onClick={handleNav}
+            href="#projects"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110"
           >
             <AiOutlineOneToOne size={20} />
             <span className="pl-4">Projects</span>
           </a>
           <a
-            href="#main"
+            onClick={handleNav}
+            href="#contact"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110"
+          >
+            <AiOutlineMail size={20} />
+            <span className="pl-4">Contato</span>
+          </a>
+          <a
+            onClick={handleNav}
+            href="#contact"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110"
           >
             <BsPerson size={20} />
             <span className="pl-4">Resume</span>
-          </a>
-          <a
-            href="#main"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110"
-          >
-            <AiOutlineMail size={20} />
-            <span className="pl-4">Contact</span>
           </a>
         </div>
       ) : (
@@ -62,22 +66,22 @@ const Sidenav = () => {
             <AiOutlineHome size={20} />
           </a>
           <a
-            href="#main"
+            href="#projects"
             className="rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineOneToOne size={20} />
+          </a>
+          <a
+            href="#contact"
+            className="rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <AiOutlineMail size={20} />
           </a>
           <a
             href="#main"
             className="rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <BsPerson size={20} />
-          </a>
-          <a
-            href="#main"
-            className="rounded-full shadow-lg bg-zinc-800 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
-          >
-            <AiOutlineMail size={20} />
           </a>
         </div>
       </div>
