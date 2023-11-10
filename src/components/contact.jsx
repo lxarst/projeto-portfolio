@@ -58,7 +58,7 @@ const Contact = () => {
             ></textarea>
           </div>
         </div>
-        <button className="bg-neutral-700 text-white mt-4 w-full p-4 rounded-lg">
+        <button className="bg-zinc-700 text-white mt-4 w-full p-4 rounded-lg">
           Enviar Mensagem
         </button>
       </form>
