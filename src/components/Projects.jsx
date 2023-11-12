@@ -17,7 +17,7 @@ const Projects = () => {
         voluptate nostrum asperiores earum explicabo quibusdam nemo vitae,
         perspiciatis voluptatem corrupti ullam laborum!
       </p> */}
-      <div className="lg:max-w-[1100px] max-w-[400px] p-6 pt-8">
+      <div className="lg:max-w-[1100px] max-w-[380px] p-6 pt-8">
         <div className="grid sm:grid-cols-2 gap-12">
           <ProjectItem
             img={img1}
