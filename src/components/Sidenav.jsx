@@ -83,7 +83,7 @@ const Sidenav = () => {
             <AiOutlineMail size={20} />
           </a>
           <a
-            href=""
+            href="https://1drv.ms/b/s!AhrEjI8obX-2ouBe183icAl4inlnzQ?e=MdUZWK"
             rel="noreferrer"
             target="_blank"
             className="rounded-full shadow-lg bg-zinc-800 text-white shadow-black/30 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"

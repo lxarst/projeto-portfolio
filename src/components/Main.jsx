@@ -49,7 +49,7 @@ const Main = () => {
               <FaGithub className="cursor-pointer" size={20} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1U3jGRNgJ2MWGpDXf65SM8I1cqvOqW2_2/view?usp=sharing"
+              href="https://1drv.ms/b/s!AhrEjI8obX-2ouBe183icAl4inlnzQ?e=MdUZWK"
               rel="noreferrer"
               target="_blank"
             >
