@@ -2,7 +2,7 @@
 
 > (WIP) Projeto da primeira versão do meu portfolio
 
-[Link para a demo] https://projeto-portfolio-hazel.vercel.app/
+[Link para a demo](https://projeto-portfolio-hazel.vercel.app/)
 
 ## Tecnologias Usadas
 
