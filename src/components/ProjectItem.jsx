@@ -8,7 +8,7 @@ const ProjectItem = ({ img, title, stused }) => {
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{stused}</p>
         <a
-          href="https://lxar-links.vercel.app/"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
