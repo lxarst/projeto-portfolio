@@ -15,9 +15,9 @@ const Main = () => {
               sequence={[
                 "Web Developer",
                 3000,
-                "Escritor",
-                3000,
                 "Game Developer",
+                3000,
+                "Escritor",
                 3000,
               ]}
               wrapper="span"
