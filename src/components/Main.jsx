@@ -42,7 +42,7 @@ const Main = () => {
               <FaLinkedin className="cursor-pointer" size={20} />
             </a>
             <a
-              href="https://github.com/ohned"
+              href="https://github.com/Aornueos"
               rel="noreferrer"
               target="_blank"
             >
